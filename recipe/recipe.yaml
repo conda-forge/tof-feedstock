@@ -1,6 +1,6 @@
 context:
   name: tof
-  version: "25.11.1"
+  version: "25.12.0"
   python_min: "3.11"
 
 package:
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/tof-${{ version }}.tar.gz
-  sha256: be4158c869911565f1f973fe01c833e1a9a2ba5eb51fb683d8f6ab8399b6671a
+  sha256: 80e9a2ae8d56fec159586931092b390e0c57401b28806551c7fa2c2b3a60b11e
 
 build:
   number: 0
@@ -25,8 +25,8 @@ requirements:
   run:
     - python >=${{ python_min }}
     - plopp
+    - pooch
     - scipp
-    - scipy
     - lazy-loader
 
 tests:
