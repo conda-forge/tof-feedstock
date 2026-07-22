@@ -1,6 +1,6 @@
 context:
   name: tof
-  version: "26.6.1"
+  version: "26.7.0"
   python_min: "3.11"
 
 package:
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/tof-${{ version }}.tar.gz
-  sha256: 0ff0dd5cc0d46bfd51ded96495a38335d320b1f7bbb4ab92fb69b7c48ff8f777
+  sha256: ad7759475bdecb28eb68f652baebca5c9e430b5dec3e0ad7c16b2a657f6ef6c5
 
 build:
   number: 0
